@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    font-family: 'Roboto Slab', serif;
+    background-color: aqua;
+}
+
+.emoji-face{
+    background-color: #ffd904;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.07);
+    position: relative;
+}
+
+.eye1{
+    height:15px;
+    width: 12px;     
+    background-color: black;   
+    border-radius: 50%;
+    top: 30px;
+    left: 20px;
+    position: absolute
+}
+ 
+.eye2{
+    height:15px;
+    width: 12px;     
+    background-color: black;   
+    border-radius: 50%;
+    top: 30px;
+    left: 70px;
+    position: absolute
+}
+
+.mouth {
+    background-color: #995710;
+    height: 35px;
+    width: 70px;
+    border-radius: 0 0 90px 90px ;
+    position: absolute;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.tongue{
+    background: #e25d5d;
+    height: 38px;
+    width: 38px;
+    z-index: 2;
+    border-radius: 40%;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.mouth-shock {
+    width:30px ;
+    height: 38px ;
+    background-color: #995710;
+    top: 50px;
+    left: 35px ;
+    border-radius: 50%;
+    position: absolute
+}
+
+.mouth-speechless {
+    width:70px ;
+    height: 5px ;
+    background-color: #995710;
+    top: 60px;
+    left: 16px ;  
+    position: absolute
+}
+
+.emoji-face {
+   float: left;
+   margin-right: 20px;
+}
+
+.emoji-face:hover {
+    transform: scale(1.25);
+}
